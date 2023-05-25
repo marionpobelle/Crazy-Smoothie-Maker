@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CustomerSwitch : MonoBehaviour
 {
@@ -21,14 +22,19 @@ public class CustomerSwitch : MonoBehaviour
     //2 = koala
     int customerID = 0;
 
+    FruitList fruitList;
+
     // Start is called before the first frame update
     void Start()
     {
+        fruitList = GetComponent<FruitList>();
         SwitchSprite();
         firstCustomer = false;
     }
 
     public void SwitchSprite(){
+        GameObject.Find("MixButton").GetComponent<Button>().interactable = false;
+        GameObject.Find("RefreshButton").GetComponent<Button>().interactable = false;
         if(firstCustomer == false){
             FindObjectOfType<SmoothieSwitch>().SwitchSmoothie();
             if(FindObjectOfType<FruitList>().GetWrongOrder() == true){
@@ -80,5 +86,7 @@ public class CustomerSwitch : MonoBehaviour
         FindObjectOfType<Timer>().ChangeRunTimer(true);
         FindObjectOfType<Timer>().ResetTimer();
         FindObjectOfType<OrderStatus>().SwitchSprite(2);
+        GameObject.Find("MixButton").GetComponent<Button>().interactable = true;
+        GameObject.Find("RefreshButton").GetComponent<Button>().interactable = true;
     }
 }

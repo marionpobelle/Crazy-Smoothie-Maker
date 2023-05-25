@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -13,6 +14,12 @@ public class GameManager : MonoBehaviour
     int maxErrors = 3;
 
     int amountOfSmoothieMade = 0;
+
+    void Awake()
+    {
+        GameObject.Find("MixButton").GetComponent<Button>().interactable = false;
+        GameObject.Find("RefreshButton").GetComponent<Button>().interactable = false;
+    }
 
     // Start is called before the first frame update
     void Start()

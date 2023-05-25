@@ -97,6 +97,7 @@ public class FruitList : MonoBehaviour
         bool OrderEqualMix = true;
         Array.Sort(mixRefFruit);
         Array.Sort(orderRefFruit);
+        
         for(int i=0; i<mixRefFruit.Length; i++){
             if(!mixRefFruit[i].Equals(orderRefFruit[i])){
                 Debug.Log(i + " for mix is " + mixRefFruit[i]);
