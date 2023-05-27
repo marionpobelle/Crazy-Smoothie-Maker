@@ -950,8 +950,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ced040a3149590e4e8faf8609a2af932, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultTexture: {fileID: 2800000, guid: 11d28b31e29fe3446ba2236278c33550, type: 3}
-  interactableTexture: {fileID: 2800000, guid: 7dcea8912c23de94e82ca3de58e1917c, type: 3}
+  defaultTexture: {fileID: 2800000, guid: 327b66f0a7cfab1478265dd7a1c4e5db, type: 3}
+  interactableTexture: {fileID: 2800000, guid: ff7f52d7d61f63043ae3f0b6f0df7371, type: 3}
   cursorMode: 0
   hotSpot: {x: 0, y: 0}
 --- !u!1 &1771774660
@@ -1127,8 +1127,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ced040a3149590e4e8faf8609a2af932, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultTexture: {fileID: 2800000, guid: 11d28b31e29fe3446ba2236278c33550, type: 3}
-  interactableTexture: {fileID: 2800000, guid: 7dcea8912c23de94e82ca3de58e1917c, type: 3}
+  defaultTexture: {fileID: 2800000, guid: 327b66f0a7cfab1478265dd7a1c4e5db, type: 3}
+  interactableTexture: {fileID: 2800000, guid: ff7f52d7d61f63043ae3f0b6f0df7371, type: 3}
   cursorMode: 0
   hotSpot: {x: 0, y: 0}
 --- !u!1 &1838283303
@@ -1304,7 +1304,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ced040a3149590e4e8faf8609a2af932, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultTexture: {fileID: 2800000, guid: 11d28b31e29fe3446ba2236278c33550, type: 3}
-  interactableTexture: {fileID: 2800000, guid: 7dcea8912c23de94e82ca3de58e1917c, type: 3}
+  defaultTexture: {fileID: 2800000, guid: 327b66f0a7cfab1478265dd7a1c4e5db, type: 3}
+  interactableTexture: {fileID: 2800000, guid: ff7f52d7d61f63043ae3f0b6f0df7371, type: 3}
   cursorMode: 0
   hotSpot: {x: 0, y: 0}

@@ -667,9 +667,11 @@ GameObject:
   - component: {fileID: 1714018454}
   - component: {fileID: 1714018453}
   - component: {fileID: 1714018452}
+  - component: {fileID: 1714018456}
+  - component: {fileID: 1714018455}
   m_Layer: 5
   m_Name: Quit
-  m_TagString: Untagged
+  m_TagString: interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -788,6 +790,48 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1714018450}
   m_CullTransparentMesh: 1
+--- !u!114 &1714018455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1714018450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ced040a3149590e4e8faf8609a2af932, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultTexture: {fileID: 2800000, guid: 327b66f0a7cfab1478265dd7a1c4e5db, type: 3}
+  interactableTexture: {fileID: 2800000, guid: ff7f52d7d61f63043ae3f0b6f0df7371, type: 3}
+  cursorMode: 0
+  hotSpot: {x: 0, y: 0}
+--- !u!61 &1714018456
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1714018450}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.16105652, y: -0.00034332275}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 156.59103, y: 73.968124}
+  m_EdgeRadius: 0
 --- !u!1 &1838283303
 GameObject:
   m_ObjectHideFlags: 0
@@ -800,9 +844,11 @@ GameObject:
   - component: {fileID: 1838283307}
   - component: {fileID: 1838283306}
   - component: {fileID: 1838283305}
+  - component: {fileID: 1838283309}
+  - component: {fileID: 1838283308}
   m_Layer: 5
   m_Name: Play
-  m_TagString: Untagged
+  m_TagString: interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -921,6 +967,48 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1838283303}
   m_CullTransparentMesh: 1
+--- !u!61 &1838283308
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838283303}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0022964478, y: 0.23366547}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 156.19106, y: 74.71416}
+  m_EdgeRadius: 0
+--- !u!114 &1838283309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838283303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ced040a3149590e4e8faf8609a2af932, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultTexture: {fileID: 2800000, guid: 327b66f0a7cfab1478265dd7a1c4e5db, type: 3}
+  interactableTexture: {fileID: 2800000, guid: ff7f52d7d61f63043ae3f0b6f0df7371, type: 3}
+  cursorMode: 0
+  hotSpot: {x: 0, y: 0}
 --- !u!1 &1945821738
 GameObject:
   m_ObjectHideFlags: 0
