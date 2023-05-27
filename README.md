@@ -1,6 +1,6 @@
 # Presentation
 
-<p align="center"><img src=![Main_Menu_CSM](https://github.com/marionpobelle/Crazy-Smoothie-Maker/assets/112869026/b6889b94-9ca7-427d-abad-e62c1ed569d2) width="800" height="400"/></p>
+![Main_Menu_CSM](https://github.com/marionpobelle/Crazy-Smoothie-Maker/assets/112869026/b6889b94-9ca7-427d-abad-e62c1ed569d2)
 
 Welcome to our newly opened smoothie bar! Our cute customers can't wait to try your delicious drinks. Thankfully, you can count on the "Smoothie Maker", a revolutionary robot able to provide you with the fresh fruits you need using his fantastic wheel !
 
