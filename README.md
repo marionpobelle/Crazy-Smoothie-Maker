@@ -6,6 +6,9 @@ Welcome to our newly opened smoothie bar! Our cute customers can't wait to try y
 
 Careful, the  Smoothie Maker robot is a prototype, and can be a little unpredictable! But we're sure you'll be okay! Good luck!
 
+![Gif_CSM](https://github.com/marionpobelle/Crazy-Smoothie-Maker/assets/112869026/567ab37e-acb9-4b92-8901-6b1a46918593)
+
+
 # Development
 
 This game was made using [Unity](https://unity.com/fr).
