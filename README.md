@@ -15,6 +15,19 @@ It was submitted for the HedgeJam #4 : [Crazy Smoothie Maker](https://maerys.itc
 
 ![OGvE4t](https://github.com/user-attachments/assets/a3ed0883-3b65-4490-87fd-ecd756bc8df9)
 
+## Team
+
+🎵 Sound : [Valentin GUYARD](https://itch.io/profile/tivah)
+
+🎲 Game Design : [Yann CHATILA](https://maerys.itch.io/)
+
+🎲 Game Design : [Esteban IMBEAUD](https://itch.io/profile/runoriginal)
+
+🖌️ Visuals : [Marisa SUTACHUN](https://itch.io/profile/m4rizh4t)
+
+🖌️ Visuals : [Yann CHATILA](https://maerys.itch.io/)
+
+💻 Developer : [Marion POBELLE](https://vitaminexe.itch.io/)
 
 
 
